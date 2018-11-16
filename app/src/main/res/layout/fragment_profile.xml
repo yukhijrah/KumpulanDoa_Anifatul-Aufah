@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/profile_ku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFIL KU"
+        android:textSize="22sp"
+        android:textColor="@color/orangeDark"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_below="@id/profile_ku"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/logo_nf"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Anifatul Aufah"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/nim"
+        android:layout_below="@id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM : 0110216010"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_below="@id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTL : Gunungkidul, 08/09/1997"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/prodi"
+        android:layout_below="@id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prodi : Informatika"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/instansi"
+        android:layout_below="@id/prodi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STT Terpadu Nurulfikri"
+        android:textSize="20sp"
+        android:textColor="@color/orangeDark"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:padding="40dp"/>
+</RelativeLayout>
